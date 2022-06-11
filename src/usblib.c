@@ -169,11 +169,11 @@ const uint8_t USBD_CDC_CFG_DESCRIPTOR[] =
 
 /* USB String Descriptors */
 _USB_LANG_ID_(LANG_US);
-_USB_STRING_(wsVendor, (wchar_t [])L"SaeWave.com")
-_USB_STRING_(wsProd, (wchar_t [])L"RemoteSwitch HUB")
-_USB_STRING_(wsSN, (wchar_t [])L"0123-4567-89")
-_USB_STRING_(wsCDC, (wchar_t [])L"CDC Device")
-_USB_STRING_(wsCDCData, (wchar_t [])L"CDC Data")
+_USB_STRING_(wsVendor, u"SaeWave.com")
+_USB_STRING_(wsProd, u"RemoteSwitch HUB")
+_USB_STRING_(wsSN, u"0123-4567-89")
+_USB_STRING_(wsCDC, u"CDC Device")
+_USB_STRING_(wsCDCData, u"CDC Data")
 
 void USBLIB_Reset(void)
 {

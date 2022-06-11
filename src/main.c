@@ -19,6 +19,7 @@
 #include "stm32f1xx.h"
 #include "usblib.h"
 
+
 USBLIB_WByte _LineState;
 
 int main(void)
